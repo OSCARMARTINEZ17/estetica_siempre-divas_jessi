@@ -14,15 +14,26 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="multimedia/favicon-32.png"
+    />
+    <link rel="apple-touch-icon" href="multimedia/apple-touch-icon.png" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- ============ HEADER ============ -->
     <header class="site-header">
       <nav class="nav container">
-        <a href="index.html" class="brand"
-          >Siempre Divas <small>Jessi</small></a
-        >
+        <a href="index.html" class="brand">
+          <img
+            src="multimedia/logo.png"
+            alt="Siempre Divas Jessi"
+            class="brand-logo"
+          />
+        </a>
         <ul class="nav-links">
           <li><a href="index.html">Inicio</a></li>
           <li><a href="servicios.html" class="active">Servicios</a></li>
@@ -66,9 +77,18 @@
     <section id="depilacion" style="padding-top: 24px">
       <div class="container">
         <div class="service-detail reveal">
-          <div class="service-visual">
+          <div class="service-visual has-photo">
             <span class="tag">755 · 808 · 1064 nm</span>
+            <img
+              src="multimedia/maquina-laser.jpg"
+              alt="Máquina de depilación láser diodo usada en Siempre Divas Jessi"
+              onerror="
+                this.style.display = 'none';
+                this.nextElementSibling.style.display = 'flex';
+              "
+            />
             <svg
+              style="display: none"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -145,9 +165,18 @@
               >Preguntar por este servicio</a
             >
           </div>
-          <div class="service-visual">
+          <div class="service-visual has-photo">
             <span class="tag">Ampollas A · B · C</span>
+            <img
+              src="multimedia/maquina-hidrafacial.jpg"
+              alt="Máquina de hidrafacial 6 en 1 usada en Siempre Divas Jessi"
+              onerror="
+                this.style.display = 'none';
+                this.nextElementSibling.style.display = 'flex';
+              "
+            />
             <svg
+              style="display: none"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -164,9 +193,18 @@
     <section id="lipolaser">
       <div class="container">
         <div class="service-detail reveal">
-          <div class="service-visual">
+          <div class="service-visual has-photo">
             <span class="tag">Cavitación · RF · Lipoláser</span>
+            <img
+              src="multimedia/maquina-lipolaser.jpg"
+              alt="Máquina de lipoláser 6 en 1 usada en Siempre Divas Jessi"
+              onerror="
+                this.style.display = 'none';
+                this.nextElementSibling.style.display = 'flex';
+              "
+            />
             <svg
+              style="display: none"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"

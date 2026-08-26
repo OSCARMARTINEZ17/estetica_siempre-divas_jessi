@@ -16,15 +16,26 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="multimedia/favicon-32.png"
+    />
+    <link rel="apple-touch-icon" href="multimedia/apple-touch-icon.png" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- ============ HEADER ============ -->
     <header class="site-header">
       <nav class="nav container">
-        <a href="index.html" class="brand"
-          >Siempre Divas <small>Jessi</small></a
-        >
+        <a href="index.html" class="brand">
+          <img
+            src="multimedia/logo.png"
+            alt="Siempre Divas Jessi"
+            class="brand-logo"
+          />
+        </a>
         <ul class="nav-links">
           <li><a href="index.html" class="active">Inicio</a></li>
           <li><a href="servicios.html">Servicios</a></li>
@@ -69,7 +80,7 @@
           <div class="hero-cta">
             <a
               class="btn btn-primary"
-              href="https://wa.me/573000000000?text=Hola%20Jessi%2C%20quiero%20agendar%20una%20cita"
+              href="https://wa.me/573219563133?text=Hola%20Jessi%2C%20quiero%20agendar%20una%20cita"
               target="_blank"
               rel="noopener"
             >
@@ -129,7 +140,16 @@
         <div class="service-grid">
           <div class="service-card reveal">
             <div class="service-icon">
+              <img
+                src="multimedia/maquina-laser.jpg"
+                alt="Máquina de depilación láser diodo"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'flex';
+                "
+              />
               <svg
+                style="display: none"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -165,7 +185,16 @@
           </div>
           <div class="service-card reveal">
             <div class="service-icon">
+              <img
+                src="multimedia/maquina-hidrafacial.jpg"
+                alt="Máquina de hidrafacial 6 en 1"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'flex';
+                "
+              />
               <svg
+                style="display: none"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -193,7 +222,16 @@
           </div>
           <div class="service-card reveal">
             <div class="service-icon">
+              <img
+                src="multimedia/maquina-lipolaser.jpg"
+                alt="Máquina de lipoláser 6 en 1"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'flex';
+                "
+              />
               <svg
+                style="display: none"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -377,7 +415,7 @@
 
     <a
       class="wa-float"
-      href="https://wa.me/573000000000?text=Hola%20Jessi%2C%20quiero%20agendar%20una%20cita"
+      href="https://wa.me/573219563133?text=Hola%20Jessi%2C%20quiero%20agendar%20una%20cita"
       target="_blank"
       rel="noopener"
       aria-label="Escribir por WhatsApp"
